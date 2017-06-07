@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -35,8 +35,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/Panoramic_Boston.jpg) no-repeat center center;
+    background-size: contain;
 }
 
 .intro-message {
@@ -59,6 +59,20 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.project-img-grey {
+    border: #fff;
+    border-style: solid;
+    border-width: 20px;
+
+}
+
+.project-img-white {
+    border: #f8f8f8;
+    border-style: solid;
+    border-width: 20px;
+
 }
 
 @media(max-width:767px) {
@@ -104,7 +118,12 @@ h6 {
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.section-sub-heading {
+   margin-bottom: 30px;
 }
 
 .section-heading-spacer {
